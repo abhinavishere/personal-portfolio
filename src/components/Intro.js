@@ -11,9 +11,9 @@ const Intro = () => {
   return (
     <Card>
       <div className="flex flex-col gap-y-3 md:flex-row md:gap-x-5 md:max-w-2xl">
-        <div className="max-h-80 overflow-hidden rounded-md md:max-h-60">
+        <div className="max-h-80 overflow-hidden rounded-md md:max-h-60 ">
           <img
-            className="inline-block h-full w-full max-w-full  object-cover object-right-top "
+            className="inline-block h-full w-full max-w-full  object-cover object-right-top filter grayscale hover:grayscale-0 transition"
             src={profileImg}
             alt="Profile of Abhinav Sawarkar"
           />
@@ -32,14 +32,17 @@ const Intro = () => {
             <div className="flex flex-col gap-y-1">
               <a
                 href="mailto:abhisawarkar85@gmail.com"
-                className="flex gap-x-2 cta"
+                className="flex gap-x-2 cta-link focus"
               >
                 <span>
                   <EmailIcon />
                 </span>
                 <span>abhisawarkar85@gmail.com</span>
               </a>
-              <a href="tel:+917719909323" className="flex gap-x-2 cta">
+              <a
+                href="tel:+917719909323"
+                className="flex gap-x-2 cta-link focus"
+              >
                 <span>
                   <PhoneIcon />
                 </span>
@@ -54,15 +57,21 @@ const Intro = () => {
           </p>
           <div className="flex gap-x-4">
             <a
-              className="cta "
+              className="cta-link focus "
               href="https://www.linkedin.com/in/abhinav-sawarkar-890a15144/"
             >
               <LinkedInIcon style={{ fontSize: "2rem" }} />
             </a>
-            <a className="cta" href="https://twitter.com/probablyabhinav">
+            <a
+              className="cta-link focus"
+              href="https://twitter.com/probablyabhinav"
+            >
               <TwitterIcon style={{ fontSize: "2rem" }} />
             </a>
-            <a className="cta" href="https://github.com/abhinavishere">
+            <a
+              className="cta-link focus"
+              href="https://github.com/abhinavishere"
+            >
               <GitHubIcon style={{ fontSize: "2rem" }} />
             </a>
           </div>
