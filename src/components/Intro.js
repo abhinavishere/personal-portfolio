@@ -10,7 +10,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Intro = () => {
   return (
     <Card>
-      <div className="flex flex-col gap-y-3 md:flex-row md:gap-x-5 md:max-w-2xl">
+      <div className="flex flex-col gap-y-3 md:flex-row md:gap-x-5 md:max-w-4xl">
         <div className="max-h-80 overflow-hidden rounded-md md:max-h-60 ">
           <img
             className="inline-block h-full w-full max-w-full  object-cover object-right-top filter grayscale hover:grayscale-0 transition"

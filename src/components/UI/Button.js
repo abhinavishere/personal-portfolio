@@ -2,11 +2,14 @@ import React from "react";
 
 const Button = (props) => {
   return (
-    <button
+    <a
+      href={props.link ? props.link : "#"}
+      target="_blank"
+      rel="noreferrer"
       className={`btn ${props.primary ? "btn-primary" : "btn-secondary"}`}
     >
       {props.children}
-    </button>
+    </a>
   );
 };
 

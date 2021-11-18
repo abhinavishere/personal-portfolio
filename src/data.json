@@ -1,0 +1,98 @@
+{
+  "firstname": "Abhinav",
+  "lastname": "Sawarkar",
+  "role": "Front-end Developer",
+  "email": "abhisawarkar85@gmail.com",
+  "contactNo": "771-990-9321",
+  "description": "Self-motivated developer, who is willing to learn and create outstanding UI applications.",
+  "socialHandles": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/abhinav-sawarkar-890a15144/"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/probablyabhinav"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/abhinavishere"
+    }
+  ],
+  "projects": [
+    {
+      "projectId": 1,
+      "projectName": "Food Cravings",
+      "description": "A food order app made using ReactJs",
+      "projectThumbnail": "./food-thumb.png",
+      "projectDemoLink": "https://foodcravings.netlify.app/",
+      "projectCodeLink": "https://github.com/abhinavishere/food-order-app",
+      "projectTags": ["ReactJs", "Javascript", "Responsive"]
+    },
+    {
+      "projectId": 2,
+      "projectName": "Tesla Clone",
+      "description": "A Tesla Clone app made using ReactJs and Redux",
+      "projectThumbnail": "./tesla-thumb.png",
+      "projectDemoLink": "https://tesla-clone-abhinav.netlify.app/",
+      "projectCodeLink": "https://github.com/abhinavishere/tesla-clone",
+      "projectTags": ["ReactJs", "Javascript", "Responsive"]
+    },
+    {
+      "projectId": 3,
+      "projectName": "Expense Tracker App",
+      "description": "An Expense tracker app made using ReactJs",
+      "projectThumbnail": "./expense-thumb.png",
+      "projectDemoLink": "https://expense-tracker-abhinav.netlify.app/",
+      "projectCodeLink": "https://github.com/abhinavishere/expense-tracker",
+      "projectTags": ["ReactJs", "Javascript", "Responsive"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "level": 60
+    },
+    {
+      "name": "HTML",
+      "level": 90
+    },
+    {
+      "name": "CSS",
+      "level": 90
+    },
+    {
+      "name": "JavaScript",
+      "level": 70
+    },
+    {
+      "name": "Python",
+      "level": 60
+    },
+    {
+      "name": "SQL",
+      "level": 50
+    }
+  ],
+  "experiences": [
+    {
+      "companyName": "Alignbox",
+      "companyUrl": "https://alignbox.com/",
+      "companyLogo": "./alignbox-logo.png"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Driving",
+      "img": "./driving-hobbie.jpg"
+    },
+    {
+      "name": "Cooking",
+      "img": "./cooking-hobbie.jpg"
+    },
+    {
+      "name": "Gaming",
+      "img": "./gaming-hobbie.jpg"
+    }
+  ]
+}
